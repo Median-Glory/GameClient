@@ -411,7 +411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isAbilityDisabledThisTurn: 0
   characterUI: {fileID: 532881087}
-  characterName: "\uC791\uB450"
+  characterName: Player2
   position: 0
   moveCards: 00000000000000000000000000000000
   abilityPanel: {fileID: 0}
@@ -656,6 +656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 455039514}
   - component: {fileID: 455039513}
+  - component: {fileID: 455039515}
   m_Layer: 0
   m_Name: TurnManager
   m_TagString: Untagged
@@ -699,6 +700,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &455039515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455039512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f579c73356a43234cbbe0789def646e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2128,7 +2141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isAbilityDisabledThisTurn: 0
   characterUI: {fileID: 822606412}
-  characterName: "\uC8FC\uC791\uB450"
+  characterName: Player3
   position: 0
   moveCards: 00000000000000000000000000000000
   abilityPanel: {fileID: 0}
@@ -2594,7 +2607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isAbilityDisabledThisTurn: 0
   characterUI: {fileID: 382809739}
-  characterName: "\uC8FC\uC791\uC791\uB450"
+  characterName: Player1
   position: 0
   moveCards: 00000000000000000000000000000000
   abilityPanel: {fileID: 1436661268}
